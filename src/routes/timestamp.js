@@ -26,7 +26,7 @@ router.get('/:date_string', (req,res)=>{
         }
         else
         {
-            outputFormat = {"error" : "Invalid Date" };
+            outputFormat = {error : "Invalid Date" };
         }
     }
     else
